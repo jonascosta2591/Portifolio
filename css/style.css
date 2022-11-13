@@ -6,6 +6,10 @@ body{
     box-sizing: border-box;
 }
 a{
+    text-decoration: underline;
+    color: #fff;
+}
+a:hover{
     text-decoration: none;
 }
 ul{
@@ -217,10 +221,11 @@ header{
     z-index: 1;
     color: #fff;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    background-color: rgb(3, 3, 34);
     font-size: 20px;
-    
+    font-weight: 700;
+    padding: 10px 5px;
+    border-radius: 10px;
 }
 .c-projects__project img{
     width: 100%;

@@ -3,7 +3,7 @@ const delay = (delayInms) => {
 }
 
 const msg1 = async () => {
-    const msg1 = 'Olá, meu nome é Jonas, tenho 23 anos, atuo como desenvolvedor web e UI Design a 8 anos'
+    const msg1 = 'Olá, meu nome é Jonas, tenho 23 anos, atuo como desenvolvedor web produtivo e UI Design a 8 anos'
     const msg1Arr = msg1.split('')
 
     let msg1HTML = document.querySelector('.js-msg-1')
@@ -12,6 +12,7 @@ const msg1 = async () => {
         await delay(50)
         msg1HTML.innerHTML += msg1Arr[i]
     }
+    msg1HTML.innerHTML = msg1HTML.innerHTML.replace('desenvolvedor web produtivo', '<strong style="box-shadow: rgba(255, 255, 255, 0.15) 0px 48px 100px 0px;">desenvolvedor web produtivo</strong>')
     await delay(1000)
     await msg2()
 }
