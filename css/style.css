@@ -1,0 +1,399 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    background: rgb(1,0,18);
+    background: linear-gradient(90deg, rgba(1,0,18,1) 0%, rgb(3, 3, 34) 51%, rgba(1,0,18,1) 100%);
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    padding-inline-start: 0;
+    list-style-type: none;
+}
+header{
+    width: 100%;
+}
+.has-padding-left-and-right{
+    padding: 0px 10px;
+}
+.has-margin-left-and-right{
+    margin: 0px 10px;
+}
+.has-margin-top{
+    margin-top: 10px;
+}
+.has-display-none{
+    display: none;
+}
+.c-box-nav{
+    width: 100%;
+    height: 80px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.c-box-nav__logo{
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.c-box-nav__logo img{
+    width: 200px;
+    transition: ease-in-out .1s;
+}
+.c-box-nav__logo img:hover{
+    width: 220px;
+    transition: ease-in-out .1s;
+}
+.c-box-nav__menu{
+    width: 50px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+}
+.c-box-nav__menu,
+.c-box-nav__menu span{
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+    transition: ease-in-out .1s;
+}
+.c-box-nav__menu_hamburguer{
+    color: #fff;
+    width: 50px;
+    display: none;
+}
+.c-box-nav__menu_hamburguer span{
+    font-size: 35px;
+}
+.s-box-nav__menu ul{
+    display: flex;
+    list-style: none;
+}
+.s-box-nav__menu ul a{
+    text-decoration: none;
+}
+.s-box-nav__menu ul a:hover{
+    text-decoration: underline;
+    text-decoration-color: rgb(255, 255, 255);
+    
+}
+.s-box-nav__menu ul li{
+    width: 100px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.c-banner-header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.c-banner-header__wrapper-my-informations{
+    width: 100%;
+    height: 360px;
+    background: rgb(1,0,18);
+    background: linear-gradient(-10deg, rgb(12, 3, 30) 0%, rgba(1,0,18,1) 60%);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.c-banner-header__wrapper-my-informations img{
+    height: 100%;
+    border-radius: 50px;
+}
+.c-wrapper-my-informations__information{
+    width: 700px;
+    max-width: 700px;
+    min-width: 400px;
+    height: 300px;
+    background-color: rgba(1,0,18,1);
+    z-index: 1;
+    position: absolute;
+    border-radius: 20px;
+    font-weight: 100;
+    padding: 20px;
+    color: #fff;
+    box-shadow: rgba(255, 255, 255, 0.24)x 48px 100px 0px;
+    transition: ease-in-out .1s;
+}
+.c-wrapper-my-informations__information:hover{
+    transition: ease-in-out .1s;
+    box-shadow: rgba(255, 255, 255, 0.01) 0px 13px 27px -5px, rgba(255, 255, 255, 0.01) 0px 8px 16px -8px;
+}
+.c-information__line{
+    width: 100%;
+    height: .1px;
+    background-color: rgb(131, 131, 131);
+}
+.s-information__skills{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.c-information__text{
+    height: 100px;
+}
+.s-skill__img img{
+    width: 40px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: ease-in-out .1s;
+}
+.s-skills__skill:hover{
+    scale: 1.1;
+    transition: ease-in-out .1s;
+}
+.s-skills__skill{
+    cursor: pointer;
+    width: 50px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 300;
+    padding: 10px 0px;
+    margin: 0px 20px;
+}
+.s-skills__skill span{
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 300;
+    padding: 5px 0px;
+    color: #ccc;
+}
+.s-skills__skill span:hover{
+    color: #fff;
+}
+.c-wrapper-my-informations__img {
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/how-to-become-a-developer.jpg");
+    background-position: 0px;
+    border-radius: 50px;
+    opacity: 2%;
+}
+.c-projects{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 50px 0px;
+    flex-wrap: wrap;
+}
+.c-projects__project{
+    width: 250px;
+    height: 250px;
+    background-color: #ccc;
+    border-radius: 20px;
+    margin: 10px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.c-projects__project .c-project__title{
+    position: absolute;
+    z-index: 1;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    
+}
+.c-projects__project img{
+    width: 100%;
+    height: 100%;
+    -webkit-filter: blur(2px);
+    -moz-filter: blur(2px);
+    -o-filter: blur(2px);
+    -ms-filter: blur(2px);
+    filter: blur(2px);
+    position: absolute;
+    transition: ease-in-out .1s;
+}
+.c-projects__project img:hover{
+    -webkit-filter: blur(0px);
+    -moz-filter: blur(0px);
+    -o-filter: blur(0px);
+    -ms-filter: blur(0px);
+    filter: blur(0px);
+    transition: ease-in-out .1s;
+}
+.c-services{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.s-service__services{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    width: 300px;
+    height: 200px;
+    margin: 20px;
+}
+.s-service__services .s-service__description{
+    height: 20px;
+    text-align: center;
+    color: #ccc;
+    font-weight: 300;
+}
+.s-service__services .s-service__title{
+    height: 20px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.s-service__services .s-service__icon{
+    width: 300px;
+    height: 100px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.s-service__services .s-service__icon span{
+    font-size: 45px;
+}
+.c-redes-social {
+    width: 100%;
+    margin: 20px 0px;
+}
+.c-redes-social__redes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.c-redes__icon{
+    width: 70px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: ease-in-out .1s;
+    cursor: pointer;
+}
+.c-redes__icon:hover{
+    scale: 1.1;
+    transition: ease-in-out .1s;
+}
+footer{
+    height: 100px;
+    background-color: rgba(255, 255, 255, 0.01);
+    display: flex;
+    align-items: center;
+}
+footer ul{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer ul a:hover{
+    background-color: rgba(255, 255, 255, 0.1);
+}
+footer ul a li{
+    display: flex;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+.c-menu-mobile{
+    display: none;
+}
+@media (max-width:600px) {
+    .c-menu-mobile{
+        width: 100vw;
+        height: 100vh;
+        display: block;
+        position: fixed;
+        background: rgb(1,0,18);
+        background: linear-gradient(90deg, rgba(1,0,18,1) 0%, rgb(3, 3, 34) 51%, rgba(1,0,18,1) 100%);
+        z-index: 1;
+        opacity: 90%;
+    }
+    .c-menu-mobile__btn-close-menu{
+        width: 100vw;
+        color: #fff;
+        margin-right: 30px;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .c-menu-mobile__btn-close-menu span{
+        font-size: 45px;
+    }
+    .c-menu-mobile ul{
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 100vh;
+    }
+    .c-menu-mobile ul li{
+        color: #fff;
+        padding: 30px 0px;
+        font-size: 20px;
+    }
+    footer ul{
+        margin-top: 100px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .c-box-nav__menu_hamburguer{
+        display: block;
+    }
+    .s-box-nav__menu{
+        display: none;
+    }
+    .c-wrapper-my-informations__img {
+        width: 100%;
+        height: 100%;
+        background-image: url("../img/how-to-become-a-developer.jpg");
+        background-position: -200px;
+        opacity: 10%;
+    }
+    .c-wrapper-my-informations__information{
+        width: 400px;
+        height: 300px;
+        background: rgb(1,0,18);
+        background-color: linear-gradient(-10deg, rgb(24, 3, 30) 0%, rgba(1,0,18,1) 60%);
+        z-index: 1;
+        position: absolute;
+        border-radius: 20px;
+        font-weight: 100;
+        padding: 20px;
+        color: #fff;
+        box-shadow: rgba(255, 255, 255, 0.24)x 48px 100px 0px;
+    }
+}
