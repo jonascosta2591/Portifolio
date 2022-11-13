@@ -4,6 +4,7 @@ body{
     background: rgb(1,0,18);
     background: linear-gradient(90deg, rgba(1,0,18,1) 0%, rgb(3, 3, 34) 51%, rgba(1,0,18,1) 100%);
     box-sizing: border-box;
+    overflow-x: none;
 }
 a{
     text-decoration: underline;
@@ -390,7 +391,7 @@ footer ul a li{
     }
     .c-wrapper-my-informations__information{
         width: 400px;
-        height: 300px;
+        height: 350px;
         background: rgb(1,0,18);
         background-color: linear-gradient(-10deg, rgb(24, 3, 30) 0%, rgba(1,0,18,1) 60%);
         z-index: 1;
