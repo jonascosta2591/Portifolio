@@ -4,7 +4,10 @@ body{
     background: rgb(1,0,18);
     background: linear-gradient(90deg, rgba(1,0,18,1) 0%, rgb(3, 3, 34) 51%, rgba(1,0,18,1) 100%);
     box-sizing: border-box;
-    overflow-x: none;
+    position: relative
+}
+html, body {
+    overflow-x: hidden;
 }
 a{
     text-decoration: underline;
@@ -45,7 +48,7 @@ header{
     justify-content: space-between;
 }
 .c-box-nav__logo{
-    width: 300px;
+    width: 250px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -73,7 +76,7 @@ header{
 }
 .c-box-nav__menu_hamburguer{
     color: #fff;
-    width: 50px;
+    
     display: none;
 }
 .c-box-nav__menu_hamburguer span{
@@ -123,7 +126,7 @@ header{
 .c-wrapper-my-informations__information{
     width: 700px;
     max-width: 700px;
-    min-width: 400px;
+    min-width: 100px;
     height: 300px;
     background-color: rgba(1,0,18,1);
     z-index: 1;
@@ -262,7 +265,7 @@ header{
     color: #fff;
     width: 300px;
     height: 200px;
-    margin: 20px;
+    padding: 0px 20px;
 }
 .s-service__services .s-service__description{
     height: 20px;
@@ -377,7 +380,11 @@ footer ul a li{
         flex-direction: column;
     }
     .c-box-nav__menu_hamburguer{
-        display: block;
+        /* display: block; */
+        width: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     .s-box-nav__menu{
         display: none;
@@ -390,7 +397,7 @@ footer ul a li{
         opacity: 10%;
     }
     .c-wrapper-my-informations__information{
-        width: 400px;
+        width: 350px;
         height: 350px;
         background: rgb(1,0,18);
         background-color: linear-gradient(-10deg, rgb(24, 3, 30) 0%, rgba(1,0,18,1) 60%);
