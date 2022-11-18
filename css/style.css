@@ -160,8 +160,14 @@ header{
 .c-information__text{
     height: 120px;
 }
-.c-information__text::after{
+/* .c-information__text::after{
     content: '';
+    width: 100%;
+    height: 1px;
+    background-color: rgb(65, 65, 65);
+    display: block;
+} */
+.c-text__line{
     width: 100%;
     height: 1px;
     background-color: rgb(65, 65, 65);
