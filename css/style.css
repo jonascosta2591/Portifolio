@@ -219,7 +219,7 @@ header{
 .c-wrapper-my-informations__img {
     width: 100%;
     height: 100%;
-    background-image: url("../img/how-to-become-a-developer.jpg");
+    background-image: url("../img/how-to-become-a-developer.webp");
     opacity: 2%;
 }
 .c-wrapper-my-informations__img::after{
@@ -266,8 +266,6 @@ header{
     position: absolute;
     border-radius: 20px;
 }
-
-
 .c-services{
     width: 100%;
     display: flex;
@@ -316,8 +314,7 @@ header{
 .c-redes-social__redes{
     display: flex;
     align-items: center;
-    justify-content: center;
-    
+    justify-content: center; 
 }
 .c-redes__icon{
     width: 70px;
@@ -414,7 +411,7 @@ footer ul a li{
     .c-wrapper-my-informations__img {
         width: 100%;
         height: 100%;
-        background-image: url("../img/how-to-become-a-developer.jpg");
+        background-image: url("../img/how-to-become-a-developer.webp");
         background-position: -200px;
         opacity: 10%;
     }
