@@ -3,6 +3,9 @@
     --border-color: rgb(54, 44, 166);
     --border-gradient: linear-gradient(to left, #0015ff, #ff951b);
 }
+*{
+    scroll-behavior: smooth;
+}
 body{
     font-family: 'Poppins', sans-serif;
     background: rgb(1,0,18);
@@ -11,7 +14,6 @@ body{
     position: relative;
     perspective: 1px;
     transform-style: preserve-3d;
-    
 }
 html, body {
     overflow-x: hidden;
@@ -341,10 +343,10 @@ footer ul{
     align-items: center;
     justify-content: center;
 }
-footer ul a:hover{
+footer ul li a:hover{
     background-color: rgba(255, 255, 255, 0.1);
 }
-footer ul a li{
+footer ul li a{
     display: flex;
     color: #fff;
     align-items: center;
