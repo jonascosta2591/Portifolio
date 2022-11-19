@@ -67,10 +67,10 @@ header{
     width: 200px;
     transition: ease-in-out .1s;
 }
-.c-box-nav__logo img:hover{
+/* .c-box-nav__logo img:hover{
     width: 220px;
     transition: ease-in-out .1s;
-}
+} */
 .c-box-nav__menu{
     width: 50px;
     height: 35px;
